@@ -1,0 +1,26 @@
+FAQ: MERCHANT SETTLEMENT
+Document ID: MER-FAQ-009 | Last updated: internal draft for demo purposes
+
+Q: How often are merchant funds settled to a bank account?
+A: Standard settlement runs once daily (T+1) for merchants in good standing. New
+merchants (first 30 days) are settled on a T+2 cycle until their risk score
+stabilizes.
+
+Q: Can a merchant request faster settlement?
+A: Eligible merchants (Tier 2 KYC, 90+ days active, no open disputes) can opt into
+same-day settlement (T+0) for an additional 0.2% fee on the settled amount.
+
+Q: What is held back from a settlement, if anything?
+A: A rolling reserve of 1% of daily transaction volume is held for 30 days as a
+buffer against future refunds and chargebacks, then released automatically if no
+disputes are open against it.
+
+Q: How are MDR fees deducted?
+A: MDR fees are deducted at the point of transaction, so the amount settled to the
+merchant's bank account is already net of fees. The merchant dashboard shows both
+gross volume and net settled amount per settlement batch.
+
+Q: What happens if a settlement fails due to incorrect bank details?
+A: The settlement batch is retried once after 24 hours. If it fails again, the funds
+remain in the merchant's platform balance and a notification is sent asking the
+merchant to verify their linked bank account before the next settlement run.

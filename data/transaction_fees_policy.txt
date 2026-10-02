@@ -1,0 +1,32 @@
+INTERNAL POLICY: TRANSACTION FEES AND PRICING TIERS
+Document ID: FIN-POL-014 | Last updated: internal draft for demo purposes
+
+1. Overview
+This document describes how transaction fees are calculated for wallet-to-wallet
+transfers, merchant payments, and cash-out operations on the platform.
+
+2. Wallet-to-wallet transfers
+Transfers between two personal wallets on the platform are free of charge when the
+sender and recipient are verified users (KYC tier 1 or above). Unverified senders are
+limited to a maximum of IDR 500,000 per transfer and incur a flat fee of IDR 1,000.
+
+3. Merchant payments (QRIS and in-app checkout)
+Merchant payments carry a Merchant Discount Rate (MDR) of 0.7% for QRIS transactions
+and 1.5% for in-app checkout transactions. Micro-merchants (monthly volume below IDR
+50,000,000) qualify for a discounted MDR of 0.3% on QRIS under the small merchant
+support program.
+
+4. Cash-out to bank account
+Cash-out fees are tiered by amount:
+  - Up to IDR 100,000: flat fee of IDR 2,500
+  - IDR 100,001 - 1,000,000: flat fee of IDR 4,000
+  - Above IDR 1,000,000: 0.5% of the cash-out amount, capped at IDR 25,000
+
+5. Fee waivers
+Fee waivers may be applied automatically during promotional periods or manually by
+customer support for verified service disruptions. All waivers must be logged with a
+ticket reference for audit purposes.
+
+6. Currency and rounding
+All fees are calculated in Indonesian Rupiah (IDR) and rounded up to the nearest IDR
+100 to simplify display in the consumer app.

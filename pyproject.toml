@@ -1,0 +1,31 @@
+[project]
+name = "simple-rag-chatbot"
+version = "0.1.0"
+description = "LangGraph RAG chatbot over a fintech support knowledge base, with tool-calling and Langfuse tracing"
+authors = [
+    {name = "Maulana Arya Alambana", email = "maulanaaryaw@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "langchain (>=0.3.25)",
+    "langgraph>=1.1.0",
+    "langchain-core>=0.3.60",
+    "langchain-community>=0.3.20",
+    "langchain-text-splitters>=0.3.8",
+    "langchain-ollama>=1.0.0",
+    "langchain-chroma>=0.2.0",
+    "chromadb>=0.6.3",
+    "langfuse>=3.0.0",
+    "python-dotenv>=1.0.0"
+]
+
+[tool.poetry]
+package-mode = false
+
+[tool.poetry.group.dev.dependencies]
+pytest = ">=8.0.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

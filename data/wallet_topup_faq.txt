@@ -1,0 +1,31 @@
+FAQ: WALLET TOP-UP METHODS
+Document ID: SUP-FAQ-022 | Last updated: internal draft for demo purposes
+
+Q: What top-up methods are supported?
+A: Bank transfer (virtual account), debit card, over-the-counter at partner minimarkets,
+and linked e-wallet transfer from supported third-party wallets.
+
+Q: How long does a bank transfer top-up take to reflect in my balance?
+A: Virtual account transfers are usually credited within 1-3 minutes. If it has not
+appeared after 30 minutes, the transaction should be escalated to support with the
+virtual account reference number.
+
+Q: Is there a fee for topping up?
+A: Bank transfer and debit card top-ups are free. Over-the-counter top-ups at partner
+minimarkets carry a flat IDR 1,500 convenience fee charged by the minimarket, not by
+the platform.
+
+Q: What is the maximum top-up amount per transaction?
+A: IDR 10,000,000 per transaction for Tier 1 users and IDR 50,000,000 for Tier 2
+users. Daily cumulative top-up limits follow the same tier caps described in the KYC
+policy document.
+
+Q: My top-up failed but my bank account was debited. What happens?
+A: Failed top-ups are automatically reconciled within 24 hours and refunded to the
+original payment method. If not resolved within 24 hours, support should open a
+reconciliation ticket referencing the bank transaction ID.
+
+Q: Can I top up someone else's wallet directly?
+A: No. Top-ups can only be made into the wallet of the verified owner of the payment
+method being used, to comply with anti-money-laundering controls. Use a
+wallet-to-wallet transfer to send funds to another user instead.

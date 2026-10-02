@@ -1,0 +1,30 @@
+INTERNAL POLICY: KYC TIERS AND ONBOARDING
+Document ID: COMP-POL-007 | Last updated: internal draft for demo purposes
+
+1. KYC Tier 0 - Unverified
+Created automatically on app download with a phone number. Wallet balance is capped
+at IDR 2,000,000. No cash-out allowed. Valid for 30 days before the account is
+restricted to read-only mode.
+
+2. KYC Tier 1 - Basic Verification
+Requires a national ID (KTP) photo and a selfie liveness check. Wallet balance cap
+rises to IDR 20,000,000. Cash-out to a single linked bank account is enabled.
+Verification is typically completed within 5 minutes via the automated OCR and
+liveness pipeline; manual review is triggered if the confidence score is below 0.85.
+
+3. KYC Tier 2 - Full Verification
+Requires Tier 1 completion plus a proof-of-address document and a short video call
+verification for balances or monthly inflow above IDR 50,000,000. Wallet balance cap
+is removed. Required for users who wish to access credit or insurance products.
+
+4. Merchant onboarding
+Merchant accounts require a business registration number (NIB), a bank account in
+the business name, and at least one authorized signatory who has completed KYC Tier
+1 personally. Merchant accounts above IDR 500,000,000 monthly volume require an
+annual re-verification cycle.
+
+5. Re-verification triggers
+Re-verification is triggered when: (a) a user's ID document expires, (b) suspicious
+activity is flagged by the fraud model, or (c) a regulatory request is received.
+Accounts pending re-verification are restricted from cash-out but can still receive
+funds.

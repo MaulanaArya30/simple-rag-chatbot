@@ -1,0 +1,35 @@
+INTERNAL POLICY: REFUNDS AND TRANSACTION DISPUTES
+Document ID: SUP-POL-031 | Last updated: internal draft for demo purposes
+
+1. Eligible refund scenarios
+- Duplicate payment caused by a network timeout on the user's device
+- Merchant-confirmed order cancellation before fulfillment
+- Payment sent to an incorrect QRIS code due to a scanning error, reported within 1
+  hour of the transaction
+
+2. Refund timelines
+Merchant-approved refunds are processed back to the original wallet within 1 hour.
+Refunds requiring manual fraud-team review (e.g. disputed wallet-to-wallet transfers)
+are processed within 5 business days.
+
+3. Dispute filing
+Users can file a dispute from the transaction detail screen within 60 days of the
+transaction date. Disputes must include a reason code and, where applicable,
+supporting evidence (screenshot, order confirmation, chat transcript with the
+merchant).
+
+4. Chargeback handling for card-funded transactions
+Top-ups made via debit card that result in a card-network chargeback are placed on
+hold pending the issuing bank's investigation. The corresponding wallet balance is
+frozen up to the disputed amount until the chargeback is resolved, to prevent
+double-recovery of funds.
+
+5. Fraud-confirmed transactions
+If a transaction is confirmed fraudulent (e.g. account takeover), the affected funds
+are reversed where technically possible, and the account is flagged for a mandatory
+KYC re-verification before further cash-out is allowed.
+
+6. SLA
+Standard support SLA for a first response on a filed dispute is 4 business hours.
+Full resolution SLA is 5 business days for cases not requiring law-enforcement
+coordination.
